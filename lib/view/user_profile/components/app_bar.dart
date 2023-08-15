@@ -2,7 +2,7 @@ import 'package:appstore_shoe/theme/custom_app_theme.dart';
 import 'package:appstore_shoe/utils/constants.dart';
 import 'package:flutter/material.dart';
 
-class UserViewAppBar extends StatelessWidget with PreferredSizeWidget {
+class UserViewAppBar extends StatelessWidget implements PreferredSizeWidget {
   const UserViewAppBar({
     super.key,
   });

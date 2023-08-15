@@ -7,7 +7,7 @@ class AppMethods {
   AppMethods._();
 
   static void addToCArt(ShoeModel data, BuildContext context) {
-    // if its true, we have that item already , otherwise we will ada it inside rhe List
+    // if its true, we have that item already , otherwise we will add it inside rhe List
     bool contains = itemsOnBag.contains(data);
 
     if (contains) {
